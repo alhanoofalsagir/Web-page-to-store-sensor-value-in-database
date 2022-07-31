@@ -1,0 +1,71 @@
+body {
+    background: #96E1FF;
+    background: -webkit-linear-gradient(top left, #96E1FF, #B21B46);
+    background: -moz-linear-gradient(top left, #96E1FF, #B21B46);
+    background: linear-gradient(to bottom right, #96E1FF, #B21B46);
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+    }
+  .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+    }
+  .header {
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding: 20px 10px;
+      margin-bottom: 20px;
+    }
+  .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+  .card {
+      border-radius: 12px;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      height: 200px;
+      padding: 20px 40px;
+      width: 300px;
+      margin-left: 550px;
+      background: rgba(255, 255, 255, 0.27);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(18.8px);
+      -webkit-backdrop-filter: blur(18.8px);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  .number {
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 29px;
+      padding: 0 10px 0 11px;
+      margin-top: 10px;
+  }
+  .button {
+      background-color: #bd557f;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      line-height: 30px;
+      text-align: center;
+      width: 100px;
+  }
+  .button:hover {
+      background-color: #fff;
+      color: #bd557f;
+  }
+  
+  .rania{
+    margin: 0 20px;
+  }
+  
