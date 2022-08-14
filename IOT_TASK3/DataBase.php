@@ -9,12 +9,12 @@
 		</div>
           </br>
             </br>
-            <div class="rania">
+            <div class="alhanoof">
                 <?php
                     $SERVER ="localhost";
                     $username="root";
                     $password="";
-                    $dbname="smartRania";
+                    $dbname="smartalhanoof";
 
                     $conn=mysqli_connect($SERVER,$username,$password,$dbname);
                    if(empty($_GET['value']))
@@ -28,7 +28,7 @@
                     echo "  The value is : " . $_GET['value'];
                     echo " Successfully submit";
                    }
-                   $query= "insert into RaniaValue values($value)" ;
+                   $query= "insert into AlhanoofValue values($value)" ;
                    $run=mysqli_query($conn,$query)
                 ?>
               </div>
